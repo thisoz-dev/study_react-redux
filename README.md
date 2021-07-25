@@ -6,7 +6,7 @@
 
 ---
 
-![without_redux-vs-with_redux](./assets/without_redux-with_redux.png)
+<img src="./src/assets/without_redux-with_redux.png" style="width: 100%; max-width: 500px" />
 
 → 리액트는 소문과 같고, 리덕스는 미디어와 같다.
 
