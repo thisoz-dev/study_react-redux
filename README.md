@@ -6,7 +6,7 @@
 
 ---
 
-![without_redux-vs-with_redux](./assets/without_redux-with_redux.png){: width="60%"}
+![without_redux-vs-with_redux](./assets/without_redux-with_redux.png)
 
 → 리액트는 소문과 같고, 리덕스는 미디어와 같다.
 
@@ -126,8 +126,6 @@ mapStateToProps 는 connect 함수에 첫번째 인수로 들어가는 함수 �
 
 mapDispatchToProps 는 connect 함수의 두번째 인자로 사용된다. 기본적으로 store에 접근한 컴포넌트가 store의 상태를 바꾸기 위해 dispatch를 사용할 수 있게 만들어 준다.
 
-mapReduxDispatch를 React의 props에 맵핑(연결)해준다.
+mapReduxDispatch를 React의 props에 맵핑(연결)해준다. connect의 정확한 동작 방식을 이해하고 싶다면 아래 링크된 git 페이지를 참고할 수 있다.
 
-<a href="https://gist.github.com/gaearon/1d19088790e70ac32ea636c025ba424e">gaearon/connect.js</a>
-
-connect의 정확한 동작 방식을 이해하고 싶다면 위 링크된 git 페이지를 참고할 수 있다.
+→ <a href="https://gist.github.com/gaearon/1d19088790e70ac32ea636c025ba424e">gaearon/connect.js</a>
